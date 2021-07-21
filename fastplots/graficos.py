@@ -30,3 +30,35 @@ def grafico(a,b,linea=".",leyenda=None,xmargen=None,ymargen=None,titulo=None,xla
     if grid==True: plt.grid()
     
     plt.show()
+
+    def grafico_multilineas(t,ys,trazo=".",leyendas=None,titulo=None,xlabel=None,ylabel=None,grid=True):
+    
+    # ¿con leyenda?
+    if leyendas==None:
+        for i,array in enumerate(ys):
+            plt.plot(t,array,trazo)
+    else:
+        for i,array in enumerate(ys):
+            plt.plot(t,array,trazo,label=leyendas[i])
+        plt.legend()
+        
+    # títulos y labels
+    plt.title(titulo)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    
+    # ¿con grid?
+    if grid==True: plt.grid()
+    
+    plt.show()
+    
+    
+def histograma(datos,num_intervalos=None,normalizada=False,titulo=None,xlabel=None,ylabel=None,grid=True):
+    if num_intervalos==None:
+        plt.hist(datos,density=normalizada)
+    else:
+        plt.hist(datos,bins=num_intervalos,density=normalizada)
+    plt.title(titulo)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    if grid==True: plt.grid()
