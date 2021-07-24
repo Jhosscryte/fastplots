@@ -1,1 +1,1 @@
-from graficos.funciones import *
+from fastplots.graficos.funciones import *
