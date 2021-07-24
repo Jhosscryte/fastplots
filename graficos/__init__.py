@@ -1,1 +1,1 @@
-from graficos import funciones
+from graficos.funciones import *
