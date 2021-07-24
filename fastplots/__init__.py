@@ -1,1 +1,1 @@
-from fastplots import fastplots
+from fastplots import graficos
