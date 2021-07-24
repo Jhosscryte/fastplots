@@ -1,1 +1,1 @@
-
+from fastplots import fastplots
