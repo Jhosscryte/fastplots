@@ -6,6 +6,8 @@ d = 86400
 yr = 3.1536e+7
 
 # Longitud (metros)
+nm = 1e-9
+microm = 1e-6
 mm = 0.001
 cm = 0.01
 dm = 0.1
