@@ -5,6 +5,7 @@ hr = 3600
 d = 86400
 yr = 3.1536e+7
 
+
 # Longitud (metros)
 nm = 1e-9
 microm = 1e-6
@@ -29,4 +30,10 @@ ua = 149597870700
 ly = 9460730472580800
 pc = 30856775814913673
 
-# Masa
+
+# Masa (kilogramos)
+g = 0.001
+
+mmoon = 7.349e22
+mearth = 5.9722e24
+msun = 1.98847e30
