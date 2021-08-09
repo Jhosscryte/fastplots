@@ -12,3 +12,4 @@ N = 6.02214076e23       #Número de Avogadro
 k = 1.380649e-23        #Constante de Boltzmann
 me = 9.1093837015e-31   #Masa del electrón
 mp = 1.67262192369e-27  #Masa del protón
+R = 8.314472            #Constante universal de los gases
