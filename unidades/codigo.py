@@ -1,3 +1,6 @@
+"""Este módulo contiene los valores de las constantes universales en el
+Sistema Internacional (SI) con todas las cifras significativas conocidas"""
+
 # Tiempo (segundos)
 s = 1
 min = 60
